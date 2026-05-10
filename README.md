@@ -7,8 +7,6 @@ A web-based system that allows students to register for courses and administrato
 - **Language:** Python 3  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Database:** SQLite (SQL)  
-- **Team:** Ghazal Ahmadzai, Faiza Hussaini, Noorullah Ahmadi, Parwana Jafari, Sana Hashemi  
-
 ## Project Overview
 
 This is a web-based Student Course Registration System built using Python Flask and SQLite. It supports two types of users: Admins and Students. Admins can manage courses and students, while students can browse, search, and enroll in courses. The system also tracks enrollment history for each student.
