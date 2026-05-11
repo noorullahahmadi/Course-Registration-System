@@ -32,7 +32,7 @@ jobs:
 
       - name: Run database tests
         run: |
-          cd "Database Schema & Testing"
+          cd testing
           python registration.py
           python reg_insert_data.py
           python test_database.py
