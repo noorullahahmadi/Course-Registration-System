@@ -41,4 +41,4 @@ app.register_blueprint(enrollment_bp)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
