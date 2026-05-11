@@ -30,12 +30,9 @@ jobs:
         run: |
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics --exclude=.git,__pycache__
 
-      - name: Run database tests
+      - name: Run tests
         run: |
-          cd testing
-          python registration.py
-          python reg_insert_data.py
-          python test_database.py
+          python -m pytest Testing.py -v
 
   # ── JOB 2: BUILD ─────────────────────────────────────────────
   build:
